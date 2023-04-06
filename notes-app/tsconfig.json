@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "./public/",
+    "composite": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "lib": [
+      "esnext",
+      "DOM",
+      "webworker"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+, "src/sw-handlers/handleSingleNoteFetch.js"  ]
+}

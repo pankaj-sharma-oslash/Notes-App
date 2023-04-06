@@ -1,0 +1,9 @@
+name = "notes-worker"
+main = "src/index.ts"
+compatibility_date = "2023-03-31"
+
+workers_dev = true
+
+kv_namespaces = [
+  { binding = "NOTES", id = "ab1d758d7fc8488193b9d70603b93aa4", preview_id = "dcd12226b77f42fca883aff047e637b5" },
+]
